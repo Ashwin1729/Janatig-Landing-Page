@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import Fact from "./components/Fact";
 import WorkDivider from "./components/WorkDivider";
+import AdvertisingSteps from "./components/AdvertisingSteps";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HeroSection />
       <Fact />
       <WorkDivider />
+      <AdvertisingSteps />
     </div>
   );
 }
