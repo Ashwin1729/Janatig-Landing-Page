@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import TextTransition, { presets } from "react-text-transition";
+
+const text_list = ["Outreach", "Marketing"];
 
 const HeroText = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div className="flex flex-col w-full my-10">
       <div className="font-[700] text-[64px] -105 ml-[205px] leading-tight">
@@ -17,8 +30,11 @@ const HeroText = () => {
           </p>
         </div>
       </div>
-      <div className="font-[700] text-[64px] -105 ml-[315px] leading-none">
-        Outreach Problems
+      <div className="flex font-[700] text-[64px] -105 ml-[315px] leading-none">
+        <TextTransition springConfig={presets.wobbly}>
+          {text_list[index % text_list.length]}
+        </TextTransition>
+        <div className="mx-4">Problems</div>
       </div>
     </div>
   );
