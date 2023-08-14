@@ -3,7 +3,7 @@ import billboard from "../assets/billboard.png";
 
 const AdvertisingSteps = () => {
   return (
-    <div className="flex justify-center items-center w-full p-3 mx-3 my-10 font-kamerik-105">
+    <div className="flex justify-center items-center w-full p-3 mx-3 my-20 font-kamerik-105">
       <div className="w-1/2 p-5 m-5">
         <div className="font-[700] text-[64px] leading-none my-10">
           <p>Advertising</p>

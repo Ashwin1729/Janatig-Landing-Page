@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Fact from "./components/Fact";
 import WorkDivider from "./components/WorkDivider";
 import AdvertisingSteps from "./components/AdvertisingSteps";
+import Features from "./components/Features";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Fact />
       <WorkDivider />
       <AdvertisingSteps />
+      <Features />
     </div>
   );
 }
