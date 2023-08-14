@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
+import Fact from "./components/Fact";
+import WorkDivider from "./components/WorkDivider";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     >
       <NavBar />
       <HeroSection />
+      <Fact />
+      <WorkDivider />
     </div>
   );
 }

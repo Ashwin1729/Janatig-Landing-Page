@@ -9,8 +9,8 @@ const HeroSection = () => {
       <HeroText />
 
       {/* Banner Image */}
-      <div className="flex justify-center items-center my-14">
-        <img src={banner_img} alt="banner_img" className="w-full" />
+      <div className="flex justify-center items-center my-14 w-full">
+        <img src={banner_img} alt="banner_img" />
       </div>
 
       <Brands />
