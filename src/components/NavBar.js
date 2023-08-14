@@ -4,7 +4,7 @@ import header_logo from "../assets/header_logo.png";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center w-5/12 px-8 py-2 rounded-[30px] bg-white font-kamerik-105">
+    <div className="flex justify-between items-center w-1/2 px-8 my-2 py-2 rounded-[30px] bg-white font-kamerik-105">
       <img src={header_logo} alt="header_logo" />
       <div className="flex justify-end items-center">
         <div className="mx-4 cursor-pointer font-[400] text-[16px]">
