@@ -2,7 +2,7 @@
 
 Its a simple landing page.
 
-- Deployment Link -
+- Deployment Link - https://janatig-landing-page-ashwin1729.netlify.app/
 
 ### Technologies used -
 
