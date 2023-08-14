@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "./utils/Button";
 import header_logo from "../assets/header_logo.png";
 
 const NavBar = () => {
